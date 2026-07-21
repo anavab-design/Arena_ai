@@ -9,11 +9,11 @@ export function Hero() {
         <div className="order-1 flex flex-col items-center text-center md:order-2 md:pt-6">
           <div className="mb-6 inline-flex items-center gap-2 text-[13px] font-normal text-foreground/70">
             <span className="h-1 w-1 rounded-full bg-foreground/70" />
-            secretária virtual.
+            Secretária virtual.
           </div>
 
           <h1 className="font-display text-[52px] font-normal uppercase leading-[0.98] tracking-[-0.02em] text-foreground sm:text-[76px] md:text-[92px] lg:text-[108px]">
-            atendimento
+            Atendimento
             <br />
             que agenda
             <br />
