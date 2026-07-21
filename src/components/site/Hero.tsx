@@ -1,9 +1,18 @@
+import heroDashboard from "@/assets/arena-dashboard.png.asset.json";
+
 export function Hero() {
   return (
     <section className="relative overflow-hidden">
       <div className="mx-auto grid max-w-[1440px] grid-cols-1 gap-10 px-8 pt-16 pb-20 sm:px-12 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] md:gap-16 md:pt-20 md:pb-28">
-        {/* Left visual placeholder */}
-        <div className="order-2 h-[360px] rounded-[8px] bg-surface md:order-1 md:h-[720px]" />
+        {/* Left visual */}
+        <div className="order-2 md:order-1">
+          <img
+            src={heroDashboard.url}
+            alt="Painel Arena — dashboard de atendimento no WhatsApp"
+            className="h-auto w-full object-contain"
+            loading="eager"
+          />
+        </div>
 
         {/* Right column */}
         <div className="order-1 flex flex-col items-center text-center md:order-2 md:pt-6">
