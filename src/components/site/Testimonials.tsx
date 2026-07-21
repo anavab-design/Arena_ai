@@ -28,11 +28,11 @@ export function Testimonials() {
           <div className="flex flex-col justify-between rounded-xl bg-surface p-8">
             <div className="mb-8 inline-flex items-center gap-2 text-[13px] text-foreground/70">
               <span className="h-1 w-1 rounded-full bg-foreground/70" />
-              depoimentos
+              Depoimentos
             </div>
             <div>
               <h2 className="font-display text-[36px] font-medium leading-[1.05] tracking-[-0.02em] text-foreground sm:text-[44px]">
-                prova de
+                Prova de
                 <br />
                 simplicidade.
               </h2>
