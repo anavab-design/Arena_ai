@@ -1,5 +1,4 @@
 import { ArrowRight } from "lucide-react";
-import aboutClinic from "@/assets/about-clinic.jpg";
 
 export function About() {
   return (
@@ -26,17 +25,8 @@ export function About() {
             </p>
           </div>
 
-          {/* Right column — image */}
-          <div className="h-[420px] overflow-hidden rounded-xl bg-surface md:h-[460px]">
-            <img
-              src={aboutClinic}
-              alt="Recepcionista sorrindo em clínica moderna"
-              className="h-full w-full object-cover"
-              loading="lazy"
-              width={1200}
-              height={1200}
-            />
-          </div>
+          {/* Right column — big image placeholder */}
+          <div className="h-[420px] rounded-xl bg-surface md:h-[460px]" />
         </div>
 
         {/* Bottom row — quote card + stats + CTA (overlapping the image above) */}

@@ -88,14 +88,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "A Arena automatiza o atendimento no WhatsApp da sua clínica, agenda consultas e responde 24h por dia, integrada ao seu sistema de gestão.",
+          "Automatize o atendimento no WhatsApp, agende consultas e recupere pacientes com IA — integrada ao sistema de gestão da sua clínica.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Arena — Secretária Virtual com IA para clínicas" },
-      { name: "twitter:description", content: "A Arena automatiza o atendimento no WhatsApp da sua clínica, agenda consultas e responde 24h por dia, integrada ao seu sistema de gestão." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/dac012df-656c-4db4-9651-21d9872c45ab/id-preview-7fbc1281--b97b618d-63e9-4efb-8896-3272d8dc5afd.lovable.app-1784601863656.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/dac012df-656c-4db4-9651-21d9872c45ab/id-preview-7fbc1281--b97b618d-63e9-4efb-8896-3272d8dc5afd.lovable.app-1784601863656.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
