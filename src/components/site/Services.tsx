@@ -47,24 +47,27 @@ export function Services() {
           </p>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 gap-5 sm:grid-cols-2 md:mt-20 lg:grid-cols-4">
-          {services.map(({ icon: Icon, title, description }) => (
-            <article
+        {/* Alternating "tab" cards — icon protrudes above card top edge */}
+        <div className="mt-24 grid grid-cols-1 gap-x-5 gap-y-16 sm:grid-cols-2 md:mt-28 lg:grid-cols-4">
+          {services.map(({ icon: Icon, title, description }, i) => (
+            <div
               key={title}
-              className="flex min-h-[280px] flex-col justify-between rounded-xl bg-surface p-7 transition-colors hover:bg-surface/70"
+              className={`relative ${i % 2 === 1 ? "lg:mt-14" : ""}`}
             >
-              <span className="grid h-11 w-11 place-items-center rounded-full bg-primary text-primary-foreground">
+              {/* Icon tab */}
+              <span className="absolute left-8 -top-6 z-10 grid h-12 w-12 place-items-center rounded-full bg-primary text-primary-foreground ring-4 ring-background">
                 <Icon className="h-5 w-5" strokeWidth={2} />
               </span>
-              <div>
+
+              <article className="flex min-h-[240px] flex-col rounded-xl bg-surface px-8 pt-14 pb-8">
                 <h3 className="text-[17px] font-semibold leading-tight tracking-tight text-foreground">
                   {title}
                 </h3>
-                <p className="mt-3 text-[13.5px] leading-[1.6] text-foreground/70">
+                <p className="mt-4 text-[13.5px] leading-[1.65] text-foreground/70">
                   {description}
                 </p>
-              </div>
-            </article>
+              </article>
+            </div>
           ))}
         </div>
       </div>
