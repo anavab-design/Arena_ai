@@ -52,23 +52,27 @@ export function Benefits() {
           </article>
 
           <div className="flex flex-col gap-5 md:col-span-3">
-            <article className="flex-1 rounded-xl bg-surface p-6">
+            <article className="flex flex-1 flex-col justify-between rounded-xl bg-surface p-7">
               <div className="text-[13px] text-foreground/60">02</div>
-              <h3 className="mt-14 text-[17px] font-semibold leading-tight tracking-tight text-foreground">
-                Integra com sua agenda
-              </h3>
-              <p className="mt-2 text-[13px] leading-[1.55] text-foreground/70">
-                Compatível com os principais sistemas do mercado.
-              </p>
+              <div>
+                <h3 className="text-[17px] font-semibold leading-tight tracking-tight text-foreground">
+                  Integra com sua agenda
+                </h3>
+                <p className="mt-2 text-[13px] leading-[1.55] text-foreground/70">
+                  Compatível com os principais sistemas do mercado.
+                </p>
+              </div>
             </article>
-            <article className="flex-1 rounded-xl bg-surface p-6">
+            <article className="flex flex-1 flex-col justify-between rounded-xl bg-surface p-7">
               <div className="text-[13px] text-foreground/60">03</div>
-              <h3 className="mt-14 text-[17px] font-semibold leading-tight tracking-tight text-foreground">
-                Reduz faltas de pacientes
-              </h3>
-              <p className="mt-2 text-[13px] leading-[1.55] text-foreground/70">
-                Lembretes e confirmação automáticos antes da consulta.
-              </p>
+              <div>
+                <h3 className="text-[17px] font-semibold leading-tight tracking-tight text-foreground">
+                  Reduz faltas de pacientes
+                </h3>
+                <p className="mt-2 text-[13px] leading-[1.55] text-foreground/70">
+                  Lembretes e confirmação automáticos antes da consulta.
+                </p>
+              </div>
             </article>
           </div>
         </div>
