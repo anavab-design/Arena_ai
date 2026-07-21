@@ -9,12 +9,12 @@ export function Process() {
           <div className="md:justify-self-end md:text-right">
             <div className="inline-flex items-center gap-2 text-[13px] text-foreground/70">
               <span className="h-1 w-1 rounded-full bg-foreground/70" />
-              como funciona
+              Como funciona
             </div>
           </div>
           <div>
             <h2 className="font-display text-[40px] font-medium leading-[1.05] tracking-[-0.02em] text-foreground sm:text-[52px] md:text-[60px]">
-              processo simples
+              Processo simples
             </h2>
           </div>
           <p className="max-w-[300px] text-[14px] leading-[1.65] text-foreground/70">
