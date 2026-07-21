@@ -19,8 +19,8 @@
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
 
-  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", ui-sans-serif, system-ui, sans-serif;
 
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -62,29 +62,29 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.17 0.01 260);
 
-  /* Primary — royal blue #2E7BFF */
-  --primary: oklch(0.62 0.19 258);
+  /* Primary — NeaTech blue #2287d8 */
+  --primary: oklch(0.63 0.14 240);
   --primary-foreground: oklch(1 0 0);
 
-  /* Secondary / muted / accent — soft lavender-gray surface #EFEEF5 */
-  --secondary: oklch(0.965 0.006 280);
-  --secondary-foreground: oklch(0.17 0.01 260);
-  --muted: oklch(0.965 0.006 280);
-  --muted-foreground: oklch(0.55 0.015 260);
-  --accent: oklch(0.965 0.006 280);
-  --accent-foreground: oklch(0.17 0.01 260);
+  /* Secondary / muted / accent — surfaceLight #eeeff6 */
+  --secondary: oklch(0.962 0.006 275);
+  --secondary-foreground: oklch(0.22 0.005 260);
+  --muted: oklch(0.962 0.006 275);
+  --muted-foreground: oklch(0.55 0.01 260);
+  --accent: oklch(0.962 0.006 275);
+  --accent-foreground: oklch(0.22 0.005 260);
 
   --destructive: oklch(0.6 0.22 27);
   --destructive-foreground: oklch(1 0 0);
 
-  --border: oklch(0.92 0.005 260);
-  --input: oklch(0.92 0.005 260);
-  --ring: oklch(0.62 0.19 258);
+  --border: oklch(0.87 0.003 260);
+  --input: oklch(0.87 0.003 260);
+  --ring: oklch(0.63 0.14 240);
 
-  /* Custom */
-  --surface: oklch(0.965 0.006 280);       /* soft card bg */
-  --surface-foreground: oklch(0.17 0.01 260);
-  --ink: oklch(0.17 0.012 265);            /* dark section bg #111114 */
+  /* Custom — surface #eeeff6, ink #323232 */
+  --surface: oklch(0.962 0.006 275);
+  --surface-foreground: oklch(0.22 0.005 260);
+  --ink: oklch(0.31 0 0);
   --ink-foreground: oklch(0.985 0 0);
 }
 
