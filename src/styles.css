@@ -52,39 +52,39 @@
 :root {
   --radius: 0.75rem;
 
-  /* Base */
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.17 0.01 260);
+  /* Base — dark canvas inspired by Pemogan, Arena blue as accent */
+  --background: oklch(0.16 0.008 265);
+  --foreground: oklch(0.985 0 0);
 
   /* Cards / popovers */
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.17 0.01 260);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.17 0.01 260);
+  --card: oklch(0.21 0.01 265);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.21 0.01 265);
+  --popover-foreground: oklch(0.985 0 0);
 
-  /* Primary — NeaTech blue #2287d8 */
-  --primary: oklch(0.63 0.14 240);
+  /* Primary — Arena blue #2287d8 */
+  --primary: oklch(0.66 0.15 240);
   --primary-foreground: oklch(1 0 0);
 
-  /* Secondary / muted / accent — surfaceLight #eeeff6 */
-  --secondary: oklch(0.962 0.006 275);
-  --secondary-foreground: oklch(0.22 0.005 260);
-  --muted: oklch(0.962 0.006 275);
-  --muted-foreground: oklch(0.55 0.01 260);
-  --accent: oklch(0.962 0.006 275);
-  --accent-foreground: oklch(0.22 0.005 260);
+  /* Secondary / muted / accent */
+  --secondary: oklch(0.24 0.01 265);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.24 0.01 265);
+  --muted-foreground: oklch(0.72 0.008 265);
+  --accent: oklch(0.24 0.01 265);
+  --accent-foreground: oklch(0.985 0 0);
 
-  --destructive: oklch(0.6 0.22 27);
+  --destructive: oklch(0.65 0.22 27);
   --destructive-foreground: oklch(1 0 0);
 
-  --border: oklch(0.87 0.003 260);
-  --input: oklch(0.87 0.003 260);
-  --ring: oklch(0.63 0.14 240);
+  --border: oklch(1 0 0 / 8%);
+  --input: oklch(1 0 0 / 12%);
+  --ring: oklch(0.66 0.15 240);
 
-  /* Custom — surface #eeeff6, ink #323232 */
-  --surface: oklch(0.962 0.006 275);
-  --surface-foreground: oklch(0.22 0.005 260);
-  --ink: oklch(0.31 0 0);
+  /* Custom — surface (lifted card bg) and ink (deepest block) */
+  --surface: oklch(0.22 0.01 265);
+  --surface-foreground: oklch(0.985 0 0);
+  --ink: oklch(0.11 0.008 265);
   --ink-foreground: oklch(0.985 0 0);
 }
 
