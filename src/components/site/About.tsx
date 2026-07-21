@@ -9,13 +9,13 @@ export function About() {
           <div className="flex flex-col">
             <div className="mb-6 inline-flex items-center gap-2 text-[13px] text-foreground/70">
               <span className="h-1 w-1 rounded-full bg-foreground/70" />
-              sobre nós.
+              Sobre nós.
             </div>
 
             <h2 className="font-display text-[40px] font-medium leading-[1.05] tracking-[-0.02em] text-foreground sm:text-[52px] md:text-[60px]">
-              feita para clínicas,
+              Feita para clínicas,
               <br />
-              movida por ia.
+              movida por IA.
             </h2>
 
             <p className="mt-8 max-w-[440px] text-[15px] leading-[1.7] text-foreground/70">
