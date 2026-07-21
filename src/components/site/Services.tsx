@@ -51,7 +51,7 @@ export function Services() {
           {services.map(({ icon: Icon, title, description }) => (
             <article
               key={title}
-              className="flex flex-col rounded-2xl bg-surface p-7 transition-colors hover:bg-surface/70"
+              className="flex flex-col rounded-xl bg-surface p-7 transition-colors hover:bg-surface/70"
             >
               <div className="mb-14 flex items-start justify-between">
                 <span className="grid h-11 w-11 place-items-center rounded-full bg-primary text-primary-foreground">

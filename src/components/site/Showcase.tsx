@@ -37,7 +37,7 @@ export function Showcase() {
           {cases.map((c) => (
             <article
               key={c.title}
-              className="flex min-h-[360px] flex-col justify-between rounded-2xl bg-background/[0.06] p-7 transition-colors hover:bg-background/[0.09] md:min-h-[440px]"
+              className="flex min-h-[360px] flex-col justify-between rounded-xl bg-background/[0.06] p-7 transition-colors hover:bg-background/[0.09] md:min-h-[440px]"
             >
               <div className="grid h-9 w-9 place-items-center rounded-full border border-background/20 text-background/70">
                 <span className="text-[14px]">↗</span>
