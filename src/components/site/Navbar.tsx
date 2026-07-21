@@ -60,7 +60,7 @@ export function Navbar() {
 
       {open && (
         <div className="mx-auto mt-3 max-w-[1440px] px-6 md:hidden">
-          <div className="rounded-3xl border border-border/60 bg-background/95 p-4 backdrop-blur-md">
+          <div className="rounded-2xl border border-border/60 bg-background/95 p-4 backdrop-blur-md">
             <ul className="flex flex-col gap-1">
               {navLinks.map((l) => (
                 <li key={l.label}>

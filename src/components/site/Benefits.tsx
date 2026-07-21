@@ -31,7 +31,7 @@ export function Benefits() {
             </button>
           </div>
 
-          <article className="relative flex min-h-[340px] flex-col justify-between overflow-hidden rounded-[20px] bg-foreground p-7 text-background md:col-span-5 md:min-h-[440px]">
+          <article className="relative flex min-h-[340px] flex-col justify-between overflow-hidden rounded-2xl bg-foreground p-7 text-background md:col-span-5 md:min-h-[440px]">
             <div className="flex items-start justify-between">
               <div className="text-[13px] text-background/60">01</div>
               <span className="grid h-10 w-10 place-items-center rounded-full bg-primary text-primary-foreground">
@@ -52,7 +52,7 @@ export function Benefits() {
           </article>
 
           <div className="flex flex-col gap-5 md:col-span-3">
-            <article className="flex-1 rounded-[20px] bg-surface p-6">
+            <article className="flex-1 rounded-2xl bg-surface p-6">
               <div className="text-[13px] text-foreground/60">02</div>
               <h3 className="mt-14 text-[17px] font-semibold leading-tight tracking-tight text-foreground">
                 Integra com sua agenda
@@ -61,7 +61,7 @@ export function Benefits() {
                 Compatível com os principais sistemas do mercado.
               </p>
             </article>
-            <article className="flex-1 rounded-[20px] bg-surface p-6">
+            <article className="flex-1 rounded-2xl bg-surface p-6">
               <div className="text-[13px] text-foreground/60">03</div>
               <h3 className="mt-14 text-[17px] font-semibold leading-tight tracking-tight text-foreground">
                 Reduz faltas de pacientes

@@ -24,7 +24,7 @@ export function Process() {
         {/* Cards row */}
         <div className="mt-16 grid grid-cols-1 gap-5 md:mt-20 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.4fr)_minmax(0,0.9fr)]">
           {/* Step 1 */}
-          <article className="flex min-h-[300px] flex-col justify-between rounded-[20px] bg-surface p-7 md:min-h-[380px]">
+          <article className="flex min-h-[300px] flex-col justify-between rounded-2xl bg-surface p-7 md:min-h-[380px]">
             <div className="text-[13px] text-foreground/60">01</div>
             <div>
               <h3 className="text-[20px] font-semibold leading-tight tracking-tight text-foreground">
@@ -38,7 +38,7 @@ export function Process() {
           </article>
 
           {/* Step 2 — highlighted */}
-          <article className="relative flex min-h-[300px] flex-col justify-between overflow-hidden rounded-[20px] bg-foreground p-7 text-background md:min-h-[380px]">
+          <article className="relative flex min-h-[300px] flex-col justify-between overflow-hidden rounded-2xl bg-foreground p-7 text-background md:min-h-[380px]">
             <div className="flex items-start justify-between">
               <div className="text-[13px] text-background/60">02</div>
               <span className="grid h-10 w-10 place-items-center rounded-full bg-primary text-primary-foreground">
@@ -57,7 +57,7 @@ export function Process() {
           </article>
 
           {/* Step 3 */}
-          <article className="flex min-h-[300px] flex-col justify-between rounded-[20px] bg-surface p-7 md:min-h-[380px]">
+          <article className="flex min-h-[300px] flex-col justify-between rounded-2xl bg-surface p-7 md:min-h-[380px]">
             <div className="text-[13px] text-foreground/60">03</div>
             <div>
               <h3 className="text-[20px] font-semibold leading-tight tracking-tight text-foreground">

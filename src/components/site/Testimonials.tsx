@@ -6,7 +6,7 @@ export function Testimonials() {
       <div className="mx-auto max-w-[1440px] px-8 py-24 sm:px-12 md:py-32">
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-6">
           {/* Left testimonial */}
-          <article className="flex flex-col justify-between rounded-[20px] bg-surface p-8">
+          <article className="flex flex-col justify-between rounded-2xl bg-surface p-8">
             <div>
               <Quote className="h-6 w-6 text-primary" strokeWidth={2} />
               <p className="mt-6 text-[15px] leading-[1.65] text-foreground">
@@ -25,7 +25,7 @@ export function Testimonials() {
           </article>
 
           {/* Center card */}
-          <div className="flex flex-col justify-between rounded-[20px] bg-surface p-8">
+          <div className="flex flex-col justify-between rounded-2xl bg-surface p-8">
             <div className="mb-8 inline-flex items-center gap-2 text-[13px] text-foreground/70">
               <span className="h-1 w-1 rounded-full bg-foreground/70" />
               depoimentos
@@ -46,7 +46,7 @@ export function Testimonials() {
           </div>
 
           {/* Right testimonial */}
-          <article className="flex flex-col justify-between rounded-[20px] bg-surface p-8">
+          <article className="flex flex-col justify-between rounded-2xl bg-surface p-8">
             <div>
               <Quote className="h-6 w-6 text-primary" strokeWidth={2} />
               <p className="mt-6 text-[15px] leading-[1.65] text-foreground">
