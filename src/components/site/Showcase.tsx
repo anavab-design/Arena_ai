@@ -21,10 +21,10 @@ export function Showcase() {
           <div>
             <div className="mb-6 inline-flex items-center gap-2 text-[13px] text-background/60">
               <span className="h-1 w-1 rounded-full bg-background/60" />
-              arena em ação
+              Arena em ação
             </div>
             <h2 className="font-display text-[40px] font-medium leading-[1.05] tracking-[-0.02em] sm:text-[52px] md:text-[60px]">
-              simplicidade em ação
+              Simplicidade em ação
             </h2>
           </div>
           <p className="max-w-[420px] text-[15px] leading-[1.7] text-background/70 md:justify-self-end">
