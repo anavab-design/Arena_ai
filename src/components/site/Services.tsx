@@ -51,19 +51,19 @@ export function Services() {
           {services.map(({ icon: Icon, title, description }) => (
             <article
               key={title}
-              className="flex flex-col rounded-[20px] bg-surface p-7 transition-colors hover:bg-surface/70"
+              className="flex min-h-[280px] flex-col justify-between rounded-xl bg-surface p-7 transition-colors hover:bg-surface/70"
             >
-              <div className="mb-14 flex items-start justify-between">
-                <span className="grid h-11 w-11 place-items-center rounded-full bg-primary text-primary-foreground">
-                  <Icon className="h-5 w-5" strokeWidth={2} />
-                </span>
+              <span className="grid h-11 w-11 place-items-center rounded-full bg-primary text-primary-foreground">
+                <Icon className="h-5 w-5" strokeWidth={2} />
+              </span>
+              <div>
+                <h3 className="text-[17px] font-semibold leading-tight tracking-tight text-foreground">
+                  {title}
+                </h3>
+                <p className="mt-3 text-[13.5px] leading-[1.6] text-foreground/70">
+                  {description}
+                </p>
               </div>
-              <h3 className="text-[17px] font-semibold leading-tight tracking-tight text-foreground">
-                {title}
-              </h3>
-              <p className="mt-3 text-[13.5px] leading-[1.6] text-foreground/70">
-                {description}
-              </p>
             </article>
           ))}
         </div>

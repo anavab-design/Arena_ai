@@ -23,7 +23,7 @@ export function About() {
               cada conversa no WhatsApp em uma consulta agendada.
             </p>
 
-            <div className="mt-10 max-w-[380px] rounded-[20px] bg-surface p-6">
+            <div className="mt-10 max-w-[380px] rounded-xl bg-surface p-6">
               <p className="text-[14px] font-medium text-foreground">
                 Não somos mais uma ferramenta genérica.
               </p>
@@ -37,7 +37,7 @@ export function About() {
           {/* Right: stats card block */}
           <div className="flex flex-col gap-6">
             <div className="grid grid-cols-2 gap-6">
-              <div className="rounded-[20px] bg-surface p-8">
+              <div className="rounded-xl bg-surface p-8">
                 <div className="text-[44px] font-semibold leading-none tracking-tight text-foreground sm:text-[52px]">
                   +1000<span className="text-primary">+</span>
                 </div>
@@ -45,7 +45,7 @@ export function About() {
                   clínicas atendidas
                 </div>
               </div>
-              <div className="rounded-[20px] bg-surface p-8">
+              <div className="rounded-xl bg-surface p-8">
                 <div className="text-[44px] font-semibold leading-none tracking-tight text-foreground sm:text-[52px]">
                   93<span className="text-primary">%</span>
                 </div>
@@ -55,7 +55,7 @@ export function About() {
               </div>
             </div>
 
-            <div className="relative overflow-hidden rounded-[20px] bg-foreground p-8 text-background">
+            <div className="relative overflow-hidden rounded-xl bg-foreground p-8 text-background">
               <div className="text-[13px] text-background/60">24h por dia</div>
               <div className="mt-3 text-[26px] font-medium leading-[1.15] tracking-[-0.01em] sm:text-[30px]">
                 Atendimento que
