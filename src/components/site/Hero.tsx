@@ -1,4 +1,4 @@
-import heroDashboard from "@/assets/arena-dashboard.png.asset.json";
+import heroDashboard from "@/assets/arena-dashboard.webp";
 
 export function Hero() {
   return (
@@ -7,7 +7,7 @@ export function Hero() {
         {/* Left visual */}
         <div className="order-2 md:order-1">
           <img
-            src={heroDashboard.url}
+            src={heroDashboard}
             alt="Painel Arena — dashboard de atendimento no WhatsApp"
             className="h-auto w-full object-contain"
             loading="eager"

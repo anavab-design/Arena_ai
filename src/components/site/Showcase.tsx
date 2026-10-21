@@ -1,15 +1,23 @@
-const cases = [
+import fotoOdontologia from "@/assets/fotos/odontologia.webp";
+import fotoConsultorio from "@/assets/fotos/consultorio.webp";
+import fotoEstetica from "@/assets/fotos/estetica.webp";
+
+// image é opcional: sem foto, o card fica no fundo escuro de antes.
+const cases: { title: string; subtitle: string; image?: string }[] = [
   {
     title: "Clínica Odontológica",
     subtitle: "3x mais agendamentos no WhatsApp",
+    image: fotoOdontologia,
   },
   {
     title: "Consultório Médico",
     subtitle: "Zero mensagens sem resposta",
+    image: fotoConsultorio,
   },
   {
     title: "Rede de Estética",
     subtitle: "Painel único para 6 unidades",
+    image: fotoEstetica,
   },
 ];
 
@@ -37,12 +45,23 @@ export function Showcase() {
           {cases.map((c) => (
             <article
               key={c.title}
-              className="flex min-h-[360px] flex-col justify-between rounded-xl bg-background/[0.06] p-7 transition-colors hover:bg-background/[0.09] md:min-h-[440px]"
+              className="group relative flex min-h-[360px] flex-col justify-between overflow-hidden rounded-xl bg-background/[0.06] p-7 transition-colors hover:bg-background/[0.09] md:min-h-[440px]"
             >
-              <div className="grid h-9 w-9 place-items-center rounded-full border border-background/20 text-background/70">
+              {c.image && (
+                <>
+                  <img
+                    src={c.image}
+                    alt=""
+                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-foreground via-foreground/40 to-foreground/10" />
+                </>
+              )}
+              <div className="relative grid h-9 w-9 place-items-center rounded-full border border-background/30 text-background/80">
                 <span className="text-[14px]">↗</span>
               </div>
-              <div>
+              <div className="relative">
                 <h3 className="text-[22px] font-semibold leading-tight tracking-tight sm:text-[24px]">
                   {c.title}
                 </h3>

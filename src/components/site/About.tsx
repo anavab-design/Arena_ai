@@ -37,8 +37,8 @@ export function About() {
           </div>
         </div>
 
-        {/* Bottom row — quote card + stats + CTA (overlapping the image above) */}
-        <div className="relative mt-10 grid grid-cols-1 gap-8 md:mt-[-90px] md:grid-cols-[minmax(0,1fr)_minmax(0,1.3fr)] md:items-end md:gap-12">
+        {/* Bottom row — quote card + stats + CTA */}
+        <div className="relative mt-10 grid grid-cols-1 gap-8 md:mt-12 md:grid-cols-[minmax(0,1fr)_minmax(0,1.3fr)] md:items-end md:gap-12">
           {/* Quote card */}
           <div className="rounded-xl bg-surface p-8 md:max-w-[420px]">
             <h3 className="font-display text-[28px] font-medium leading-[1.15] tracking-tight text-foreground sm:text-[32px]">

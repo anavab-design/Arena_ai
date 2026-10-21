@@ -1,4 +1,5 @@
 import { ArrowRight, ArrowUpRight } from "lucide-react";
+import fotoAtendimento from "@/assets/fotos/atendimento.webp";
 
 export function Benefits() {
   return (
@@ -32,13 +33,20 @@ export function Benefits() {
           </div>
 
           <article className="relative flex min-h-[340px] flex-col justify-between overflow-hidden rounded-xl bg-foreground p-7 text-background md:col-span-5 md:min-h-[440px]">
-            <div className="flex items-start justify-between">
+            <img
+              src={fotoAtendimento}
+              alt=""
+              className="absolute inset-0 h-full w-full object-cover object-center opacity-80"
+              loading="lazy"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-foreground via-foreground/50 to-transparent" />
+            <div className="relative flex items-start justify-between">
               <div className="text-[13px] text-background/60">01</div>
               <span className="grid h-10 w-10 place-items-center rounded-full bg-primary text-primary-foreground">
                 <ArrowUpRight className="h-5 w-5" strokeWidth={2} />
               </span>
             </div>
-            <div>
+            <div className="relative">
               <h3 className="text-[26px] font-semibold leading-tight tracking-tight sm:text-[32px]">
                 Resposta em
                 <br />
