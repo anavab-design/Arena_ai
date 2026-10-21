@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import visaoGeral from "@/assets/sistema-visao-geral.webp";
 
 export function About() {
   return (
@@ -26,7 +27,14 @@ export function About() {
           </div>
 
           {/* Right column — big image placeholder */}
-          <div className="h-[420px] rounded-xl bg-surface md:h-[460px]" />
+          <div className="h-[420px] overflow-hidden rounded-xl bg-surface md:h-[460px]">
+            <img
+              src={visaoGeral}
+              alt="Visão geral da Arena com leads, agendamentos, comparecimento e faturamento da clínica"
+              className="h-full w-full object-cover object-left-top"
+              loading="lazy"
+            />
+          </div>
         </div>
 
         {/* Bottom row — quote card + stats + CTA (overlapping the image above) */}

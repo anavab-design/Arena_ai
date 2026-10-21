@@ -1,4 +1,7 @@
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import sistemaNota from "@/assets/sistema-nota.webp";
+import sistemaConversa from "@/assets/sistema-conversa.webp";
+import sistemaFunil from "@/assets/sistema-funil.webp";
 
 export function Process() {
   return (
@@ -27,7 +30,12 @@ export function Process() {
         <div className="mt-16 grid grid-cols-1 gap-5 md:mt-20 md:grid-cols-[minmax(0,1fr)_minmax(0,1.9fr)_minmax(0,1fr)] md:items-start">
           {/* Step 1 — image top, title bottom */}
           <article className="flex flex-col rounded-xl border border-border/70 bg-background p-4 pb-8">
-            <div className="h-[200px] w-full rounded-lg bg-surface" />
+            <img
+              src={sistemaNota}
+              alt="Configuração da nota do lead com perguntas e pontos"
+              className="h-[200px] w-full rounded-lg bg-surface object-cover object-top"
+              loading="lazy"
+            />
             <h3 className="mt-8 px-3 text-[22px] font-medium leading-tight tracking-tight text-foreground">
               Diagnóstico
             </h3>
@@ -35,7 +43,12 @@ export function Process() {
 
           {/* Step 2 — wide highlighted, image left + text right with divider */}
           <article className="flex flex-col gap-6 rounded-xl bg-surface p-4 md:flex-row md:gap-8 md:p-6">
-            <div className="h-[240px] w-full shrink-0 rounded-lg bg-foreground/10 md:h-auto md:w-[46%] md:min-h-[320px]" />
+            <img
+              src={sistemaConversa}
+              alt="Conversa no WhatsApp em que a Arena qualifica o paciente e agenda a avaliação"
+              className="h-[240px] w-full shrink-0 rounded-lg bg-foreground/10 object-cover object-top md:h-auto md:w-[46%] md:min-h-[320px]"
+              loading="lazy"
+            />
             <div className="flex flex-col justify-center md:flex-1 md:pr-4">
               <h3 className="text-[28px] font-medium leading-tight tracking-tight text-foreground sm:text-[32px]">
                 Implantação e integração
@@ -51,7 +64,12 @@ export function Process() {
 
           {/* Step 3 — offset lower, image top, title bottom */}
           <article className="mt-6 flex flex-col rounded-xl border border-border/70 bg-background p-4 pb-8 md:mt-20">
-            <div className="h-[200px] w-full rounded-lg bg-surface" />
+            <img
+              src={sistemaFunil}
+              alt="Funil da clínica com os follow-ups de cada paciente"
+              className="h-[200px] w-full rounded-lg bg-surface object-cover object-top"
+              loading="lazy"
+            />
             <h3 className="mt-8 px-3 text-[22px] font-medium leading-tight tracking-tight text-foreground">
               Operação e suporte
             </h3>
